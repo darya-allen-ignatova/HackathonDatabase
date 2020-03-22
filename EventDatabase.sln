@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EventDatabase", "EventDatabase\EventDatabase.sqlproj", "{2F063D68-4611-46B8-AF89-762AEB52338D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F063D68-4611-46B8-AF89-762AEB52338D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F063D68-4611-46B8-AF89-762AEB52338D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F063D68-4611-46B8-AF89-762AEB52338D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2F063D68-4611-46B8-AF89-762AEB52338D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F063D68-4611-46B8-AF89-762AEB52338D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F063D68-4611-46B8-AF89-762AEB52338D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B19A7D9B-A5FA-4F53-9602-7A178E7EDD23}
+	EndGlobalSection
+EndGlobal
