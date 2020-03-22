@@ -1,9 +1,10 @@
-﻿CREATE TABLE [dbo].[ActivityFiles] (
-    [ActivityId]     INT    NOT NULL,
-    [FileId]         INT    NOT NULL,
+﻿CREATE TABLE [dbo].[EventUserRole] (
+    [UserId]     INT    NOT NULL,
+    [EventId]    INT    NOT NULL,
+	[Role]       INT    NOT NULL,
 
-	CONSTRAINT [PK_ActivityFiles] PRIMARY KEY ([ActivityId], [FileId]),
-    CONSTRAINT [FK_TaskFiles_File] FOREIGN KEY ([FileId]) REFERENCES [dbo].[File] ([Id]),
-    CONSTRAINT [FK_TaskFiles_Activity] FOREIGN KEY ([ActivityId]) REFERENCES [dbo].[Activity] ([Id])
+	CONSTRAINT [PK_EventUserRole] PRIMARY KEY ([UserId], [EventId]),
+    CONSTRAINT [FK_EventUserRole_User] FOREIGN KEY ([UserId]) REFERENCES [dbo].[User] ([Id]),
+    CONSTRAINT [FK_EventUserRole_Event] FOREIGN KEY ([EventId]) REFERENCES [dbo].[Event] ([Id]), 
 );
 
